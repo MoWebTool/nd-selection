@@ -7,7 +7,7 @@
 'use strict';
 
 var selection;
-var $ = require('$');
+var $ = require('jquery');
 
 selection = function(inputor) {
   inputor = $(inputor).eq(0)[0];
